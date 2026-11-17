@@ -1,5 +1,5 @@
-const Listing = require("C:/Web Devlopement Course/Code/Major Project WanderLust/models/listing.js");
-const Review = require("C:/Web Devlopement Course/Code/Major Project WanderLust/models/review.js");
+const Listing = require("./models/listing.js");
+const Review = require("./models/review.js");
 const ExpressError = require("./utils/ExpressError.js");
 const { listingSchema } = require("./schema.js"); 
 const { reviewSchema } = require("./schema.js"); 

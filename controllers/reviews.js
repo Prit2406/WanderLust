@@ -1,5 +1,5 @@
-const Review = require("C:/Web Devlopement Course/Code/Major Project WanderLust/models/review.js");
-const Listing = require("C:/Web Devlopement Course/Code/Major Project WanderLust/models/listing.js");
+const Review = require("../models/review.js");
+const Listing = require("../models/listing.js");
 
 module.exports.createReview =  async(req, res) => {
     let listing = await Listing.findById(req.params.id);
